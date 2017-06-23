@@ -5,7 +5,7 @@
      int i=0,j,k;
      printf("Enter the integer");
      scanf("%d",&n);
-     while(a>0)
+     while(n>0)
      {
      	a[i]=n%10;
      	n=n/10;
@@ -18,7 +18,7 @@
      {
      	for(j=i+1;j<c;j++)
      	{
-     		if(t[i]>t[j])
+     		if(a[i]>a[j])
      		{
      		    k=a[i];
      	    	    a[i]=a[j];
